@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:wght@300&display=swap');
+
+.principal {
+    font-family: 'Raleway';
+    text-align: center;
+    font-size: 62.5;
+}
+
+.mueble {
+    color: #037bc0;
+}
+
+.hero {
+    /*para poner y modificar una imágen de fondo*/
+    background-image: url(/Imágenes/principal.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 20px;
+}
+
+#navegacion {
+    /*para poner el menú de manera horizontal*/
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2em;
+}
+
+#navegacion a {/*le quita la decoración al texto y lo pone en negro*/
+    color: black;
+    text-decoration: none;
+}
+
+h1 h2 h3 {
+    font-family: 'Playfair';
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4rem;
+    margin-bottom: 2px;
+}
+
+ h3 {
+    font-size: 4rem;
+}
+
+
+.col {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 1em;
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-body {
+    position: relative;
+    background-color: #037bc0;
+    color: white;
+    padding: 5em 0;
+}
+
+button {
+    background-color: #00cc00;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    border: none;
+}
+
+#container a {
+    color: black;
+    text-decoration: none;   
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
