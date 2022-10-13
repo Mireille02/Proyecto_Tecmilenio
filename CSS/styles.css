@@ -1,4 +1,7 @@
 /*Colores*/
+/*Colores en CSS
+Azul: #037bc0
+Verde: #00cc00*/
 :root {
     --bs-blue: #037BC0;
     --bs-green: #8CBC00;
@@ -63,8 +66,12 @@ h3 {
     background-color: var(--bs-green) !important;
 }
 
-.bg-primary {
+.bg-primary, .btn-primary {
     background-color: var(--bs-blue) !important;
+}
+
+.text-primary, .nombre-sitio {
+    color: var(--bs-blue) !important;
 }
 
 
@@ -77,12 +84,12 @@ h3 {
     }
 }
 
-.categories img {/*para que las imágenes se hagan grandes cuando el mouse esta sobre ellas*/
+.categoria img {/*para que las imágenes se hagan grandes cuando el mouse esta sobre ellas*/
     transition-property: transform;
-    transition-duration: 250ms;
+    transition-duration: 300ms;
 }
 
-.categories img:hover {
+.categoria img:hover {
     transform: scale(1.2);
 }
 
