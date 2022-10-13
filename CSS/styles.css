@@ -42,9 +42,9 @@ h3 {
     border-radius: 5px;
 }
 
-.hero {
+.hero img {
     /*para poner y modificar una imágen de fondo*/
-    background-image: url(/Imágenes/principal.jpg);
+    /*background-image: url(/Imágenes/principal.jpg);*/
     height: 25rem;
     background-size: cover;
     background-position: center center;
@@ -52,7 +52,7 @@ h3 {
 }
 
 @media (min-width: 768px) {
-    .hero  {
+    .hero img {
         height: 55rem;
     }
 }
@@ -76,3 +76,22 @@ h3 {
         object-fit: cover;
     }
 }
+
+.categories img {/*para que las imágenes se hagan grandes cuando el mouse esta sobre ellas*/
+    transition-property: transform;
+    transition-duration: 250ms;
+}
+
+.categories img:hover {
+    transform: scale(1.2);
+}
+
+.galeria li:not(:last-of-type) {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+
